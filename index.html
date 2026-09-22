@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>K.M. AKODJI—Développeur web</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="entete">
+  <div class="conteneur entete-interieur">
+    <a href="#accueil" class="logo">KM</a>
+
+    <button class="bouton-menu" id="boutonMenu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="menuPrincipal" class="menu">
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenu">
+
+  <section id="accueil" class="section-heros">
+    <div class="conteneur">
+      <p class="nom-site"> Portfolio personnel</p>
+      <p class="petit-texte">Étudiant en développement web</p>
+      <h1>AKODJI Kossi Moïse</h1>
+      <p class="texte-heros">« Je me forme au développement web et j'aime comprendre comment un site fonctionne, du premier clic jusqu'à la dernière ligne de code. »</p>
+      <div class="actions-heros">
+        <a href="#projets" class="bouton bouton-principal">Voir mes projets</a>
+        <a href="#contact" class="bouton bouton-secondaire">Me contacter</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="apropos" class="section section-apropos">
+    <div class="conteneur">
+      <p class="etiquette-section">// 02_PARCOURS</p>
+      <div class="grille-apropos">
+
+        <div class="texte-apropos">
+          <h2>À propos</h2>
+          <p>Je m'appelle Moïse, je me forme en développement web et je m'intéresse particulièrement à la qualité du code : accessibilité, performance et sobriété numérique.</p>
+          <p>Ce portfolio est lui-même mon premier projet complet : conçu en wireframe, prototypé, codé en HTML/CSS/JS, puis audité et corrigé selon une démarche qualité.</p>
+          <a href="images/Document/CV-Moïse-AKODJI.pdf" class="bouton bouton-principal" download ="CV-Moïse-AKODJI.pdf">Télécharger mon CV</a>
+        </div>
+
+        <div class="image-apropos">
+          <img src="images/photo-profil.jpg.jpg" alt="Photo de Kossi Moïse AKODJI>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="competences" class="section section-competences">
+    <div class="conteneur">
+      <p class="etiquette-section">// 03_TECH</p>
+      <h2>Compétences</h2>
+
+      <div class="grille-competences">
+
+        <div class="groupe-competences">
+          <h3>Front-end</h3>
+          <ul class="liste-competences">
+            <li>
+              <span class="nom-competence">HTML5 sémantique</span>
+              <span class="barre"><span class="barre-remplie" style="width:80%"></span></span>
+            </li>
+            <li>
+              <span class="nom-competence">CSS3 (Flexbox / Grid)</span>
+              <span class="barre"><span class="barre-remplie" style="width:75%"></span></span>
+            </li>
+            <li>
+              <span class="nom-competence">JavaScript (DOM, validation)</span>
+              <span class="barre"><span class="barre-remplie" style="width:65%"></span></span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="groupe-competences">
+          <h3>Conception &amp; outils</h3>
+          <ul class="liste-competences">
+            <li>
+              <span class="nom-competence">Wireframe (Stitch)</span>
+              <span class="barre"><span class="barre-remplie" style="width:90%"></span></span>
+            </li>
+            <li>
+              <span class="nom-competence">Prototype (Figma)</span>
+              <span class="barre"><span class="barre-remplie" style="width:85%"></span></span>
+            </li>
+            <li>
+              <span class="nom-competence">Accessibilité &amp; DevTools</span>
+              <span class="barre"><span class="barre-remplie" style="width:80%"></span></span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="projets" class="section section-projets">
+    <div class="conteneur">
+      <p class="etiquette-section">// 04_RÉALISATIONS</p>
+      <h2>Projets</h2>
+
+      <div class="grille-projets">
+
+        <article class="carte-projet">
+          <h3>Testeur de conditions</h3>
+          <p>Un petit outil qui indique si vous êtes majeur ou mineur selon votre âge, si un nombre est pair ou impair, et à quel mois correspond un chiffre de 1 à 12.</p>
+          <a href="Mes projets/Exercice 1/index.html"class="lien-projet">Voir le projet</a>
+        </article>
+
+        <article class="carte-projet">
+          <h3>Date, Horloge et Calcul de durée</h3>
+          <p>Calcule le nombre de jours entre aujourd'hui et une date saisie, et affiche une horloge en temps réel actualisée chaque seconde.</p>
+          <div style="display: flex;gap: 0.75rem;flex-wrap: wrap;margin-top: 0.75rem;">
+           <a href="Mes projets/Exercice 7/exercice3.html" class="lien-projet">Voir le projet Date</a>
+           <a href="Mes projets/Exercice 7/temps_reel.html" class="lien-projet">Voir le projet Horloge</a>
+          </div>
+        </article>
+
+        <article class="carte-projet">
+          <h3>Calculatrice de prêt</h3>
+          <p>Calcule le coût total d'un prêt (montant + intérêts) à partir des informations saisies par l'utilisateur.</p>
+          <a href="Mes projets/Exercice 8/calculateur.html" class="lien-projet">Voir le projet</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-contact">
+    <div class="conteneur">
+      <p class="etiquette-section">// 05_CONTACT</p>
+      <div class="grille-contact">
+
+        <div class="intro-contact">
+          <h2>Vous avez un projet en tête ?</h2>
+          <p>N'hésitez pas à me contacter, je réponds rapidement.</p>
+        </div>
+
+        <form id="formulaireContact" class="formulaire-contact" novalidate>
+
+          <div class="champ">
+            <label for="nom">Nom <span class="obligatoire">(obligatoire)</span></label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+            <span class="message-erreur" id="erreur-nom"></span>
+          </div>
+
+          <div class="champ">
+            <label for="email">Email <span class="obligatoire">(obligatoire)</span></label>
+            <input type="email" id="email" name="email" placeholder="votreadresse@gmail.com" required>
+            <span class="message-erreur" id="erreur-email"></span>
+          </div>
+
+          <div class="champ champ-pleine-largeur">
+            <label for="message">Message <span class="obligatoire">(obligatoire)</span></label>
+            <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+            <span class="message-erreur" id="erreur-message"></span>
+          </div>
+
+          <div class="champ champ-pleine-largeur">
+            <button type="submit" class="bouton bouton-principal">Envoyer</button>
+            <p id="retourFormulaire" class="retour-formulaire"></p>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="pied-de-page">
+  <div class="conteneur">
+    <p>© 2026 Moïse AKODJI. Site conçu et codé dans le cadre du projet final — Développement Web Débutant.</p>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
